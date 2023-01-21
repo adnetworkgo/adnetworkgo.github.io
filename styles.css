@@ -18,6 +18,15 @@ p {
     margin: 20px 0;
 }
 
+.center-image {
+    max-width: 100%; /* Establece un ancho máximo */
+    width: 100%; /* Establece el ancho en porcentaje */
+    display: block;
+    margin: 0 auto;
+}
+
+
+
 /* Agregar colores a los botones */
 #instagramBtn {
     background-color: yellow;
