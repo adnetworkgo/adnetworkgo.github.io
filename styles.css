@@ -42,3 +42,20 @@ p {
 button:hover {
     transform: scale(1.1);
 }
+
+
+.banner-container {
+    text-align: center;
+}
+
+.banner-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner-title {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px #333333;
+    margin-top: 10px;
+}

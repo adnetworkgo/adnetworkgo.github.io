@@ -8,3 +8,7 @@ document.getElementById("twitterBtn").addEventListener("mouseover", function(){
 document.getElementById("linkedinBtn").addEventListener("mouseover", function(){
     this.style.backgroundColor = "green";
 });
+
+
+// Obtener el banner y el título
+var banner = document.querySelector(".banner-image");
