@@ -8,8 +8,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #333333;
-    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #85cbf3;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #85cbf3;
 }
 
 p {
@@ -31,12 +37,15 @@ p {
 /* Agregar colores a los botones */
 #instagramBtn {
     background-color: yellow;
+    text-align: center;
 }
 #twitterBtn {
     background-color: blue;
+    text-align: center;
 }
 #linkedinBtn {
     background-color: red;
+    text-align: center;
 }
 
 /* Aumentar tamaño al pasar el mouse */
