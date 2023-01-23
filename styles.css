@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #000000, #333333); /* Establece el fondo degradado de negro */
+    background: linear-gradient(to bottom, #000000, #252525); /* Establece el fondo degradado de negro */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ h2 {
 
 p {
     text-align: center;
-    color: #555555;
+    color: #eae8f5;
     font-size: 18px;
     margin: 20px 0;
 }
@@ -73,4 +73,52 @@ button:hover {
     color: white;
     text-shadow: 2px 2px #333333;
     margin-top: 10px;
+}
+
+    /* SOCIAL BAR */ 
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end ;
+    z-index: 100 ;
+    font-size: 16px;
+}
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: 7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-twitter {
+    background: #3a99f1;
+    
+}
+.icon-linkedin {
+    background: #0874da;
+}
+.icon-instagram {
+    background: #ff4e08;
+}
+.icon-youtube {
+    background: #E83028;
+}
+
+.icon: :last-child{
+    border-radius: 0 0 0 1rem;
+
+}
+.icon: :first-child {
+    border-radius: 1rem 0 0 0;
+}
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
