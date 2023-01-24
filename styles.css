@@ -1,10 +1,14 @@
 body {
-    background: linear-gradient(to bottom, #000000, #252525); /* Establece el fondo degradado de negro */
+    background: linear-gradient(to bottom, #ffffff, #252525); /* Establece el fondo degradado de negro */
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
 
 h1 {
     text-align: center;
@@ -86,9 +90,102 @@ button:hover {
     margin-top: 10px;
 }
 
+/* MENU */ 
+.chexbox {
+    display: none;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header-container{
+    width: 90%;
+    position: relative;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 3rem;
+}
+.btn-laber{
+    width: 2rem;
+    height: 1.4rem;
+}
+.header-button{
+    width: 2rem;
+    height: 0.2rem;
+    background: #000000;
+    position: absolute;
+    top: 1.9rem;
+    transition: all 0.2s;
+}
+
+.header-button::before,
+.header-button::after{
+    content:"";
+    width: 2rem;
+    height: 0.2rem;
+    background: #000000;
+    position: absolute;
+    top: -0.6rem;
+    transition: all 0.2s;
+}
+
+.header-button::after{
+    top: 0.6rem;
+}
+
+.menu{
+    background: #d1d1d1;
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    z-index: 9;
+    top: -12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 2rem;
+    transition: all 0.5s;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0.5rem;
+}
+a{
+    margin: 0.1rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.chexbox:checked ~ .menu{
+    background: #ffffff;
+    top: 0rem;
+}
+
+.chexbox:checked + header .header-container label .header-button{
+    background: none;
+}
+.chexbox:checked + header .header-container label .header-button::before{
+    transform: rotate(35deg);
+    top: 0;
+}
+.chexbox:checked + header .header-container label .header-button::after{
+    transform: rotate(-35deg);
+    top:0;
+}
+
+    
 
 
-    /* SOCIAL BAR */ 
+/* SOCIAL BAR */ 
 
 .social-bar {
     position: fixed;
