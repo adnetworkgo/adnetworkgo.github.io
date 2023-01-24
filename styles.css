@@ -30,12 +30,18 @@ figcaption{
     text-shadow: #ffffff;
 }
 
-.center-image {
-    max-width: 100%; /* Establece un ancho máximo */
-    width: 100%; /* Establece el ancho en porcentaje */
-    display: block;
-    margin: 0 auto;
+.image-container{
+    width: 100%;
+
 }
+
+.logo-web {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
 
 
 
@@ -80,10 +86,7 @@ button:hover {
     margin-top: 10px;
 }
 
-.logo-web {
-    width: 100%;
-    border-radius: 5px;
-}
+
 
     /* SOCIAL BAR */ 
 
