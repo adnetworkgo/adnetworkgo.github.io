@@ -80,6 +80,11 @@ button:hover {
     margin-top: 10px;
 }
 
+.logo-web {
+    width: 100%;
+    border-radius: 5px;
+}
+
     /* SOCIAL BAR */ 
 
 .social-bar {
