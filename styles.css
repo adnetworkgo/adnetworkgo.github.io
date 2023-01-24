@@ -24,6 +24,11 @@ p {
     font-size: 18px;
     margin: 20px 0;
 }
+figcaption{
+    text-align: center;
+    color: white;
+    text-shadow: #ffffff;
+}
 
 .center-image {
     max-width: 100%; /* Establece un ancho máximo */
@@ -91,7 +96,7 @@ button:hover {
 .icon {
     color: white;
     text-decoration: none;
-    padding: 7rem;
+    padding: 0.7rem;
     display: flex;
     transition: all .5s;
 }
