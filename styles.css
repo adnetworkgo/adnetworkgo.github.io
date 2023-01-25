@@ -65,12 +65,13 @@ figcaption{
 
 /* Aumentar tamaño al pasar el mouse */
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
 .button-container {
     text-align: center; /* Centra los botones */
+    width: 100%;
 }
 
 .button {
@@ -78,11 +79,16 @@ button:hover {
 }
 
 
+/* CONFIGURACION BANNER */
+
+.banner-container {
+    text-align: center;
+    width: 100%;
+}
 .banner-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
 .banner-title {
     font-size: 36px;
     color: white;
@@ -108,7 +114,7 @@ header {
     align-items: center;
 }
 .header-logo{
-    width: 3rem;
+    width: 6rem;
 }
 .btn-label {
     width: 2rem;
@@ -159,13 +165,19 @@ ul{
 li{
     margin: 0.5rem;
 }
-a{
-    margin: 0.1rem;
+a {
+    margin: 0 1rem;
     color: #000000;
     text-decoration: none;
 }
 
-.chexbox:checked ~ .menu{
+#icon-menu{
+    color:#000000;
+    text-decoration:none ;
+    background: none;
+}
+
+.checkbox:checked ~ .menu{
     background: #ffffff;
     top: 0rem;
 }
@@ -206,18 +218,22 @@ a{
     transition: all .5s;
 }
 
+.icon-instagram {
+    background: #ff4e08;
+}
+
+.icon-telegram {
+    background: none;
+}
 .icon-twitter {
     background: #3a99f1;
     
 }
-.icon-linkedin {
-    background: #0874da;
-}
-.icon-instagram {
-    background: #ff4e08;
-}
 .icon-youtube {
     background: #E83028;
+}
+.icon-linkedin {
+    background: #0874da;
 }
 
 .icon: :last-child{
