@@ -91,7 +91,7 @@ button:hover {
 }
 
 /* MENU */ 
-.chexbox {
+.checkbox {
     display: none;
 }
 header {
@@ -110,7 +110,7 @@ header {
 .header-logo{
     width: 3rem;
 }
-.btn-laber{
+.btn-label {
     width: 2rem;
     height: 1.4rem;
 }
@@ -170,14 +170,14 @@ a{
     top: 0rem;
 }
 
-.chexbox:checked + header .header-container label .header-button{
+.checkbox:checked + header .header-container label .header-button{
     background: none;
 }
-.chexbox:checked + header .header-container label .header-button::before{
+.checkbox:checked + header .header-container label .header-button::before{
     transform: rotate(35deg);
     top: 0;
 }
-.chexbox:checked + header .header-container label .header-button::after{
+.checkbox:checked + header .header-container label .header-button::after{
     transform: rotate(-35deg);
     top:0;
 }
