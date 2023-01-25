@@ -236,11 +236,11 @@ a {
     background: #0874da;
 }
 
-.icon: :last-child { 
+.icon:last-child { 
     border-radius: 0 0 0 1rem;
 
 }
-.icon: :first-child {
+.icon:first-child {
     border-radius: 1rem 0 0 0;
 }
 .icon:hover {
